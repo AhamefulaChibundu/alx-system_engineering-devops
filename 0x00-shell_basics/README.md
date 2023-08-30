@@ -17,9 +17,7 @@ After saving, we need to make our files exectable by using the command chmod u+x
 
 ```
 $ ./file1  
- 
 /root/project/shell-basics/  
- 
 $
 ``` 
 <br>

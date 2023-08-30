@@ -1,13 +1,13 @@
-#SHELL BASICS AND BASH SCRIPT
+# SHELL BASICS AND BASH SCRIPT
 
 This project is simply about bash script and shell basics.
 
-###WHAT IS BASH SCRIPT?
+### WHAT IS BASH SCRIPT?
 
 Bash script is a series of command written in a file which are read and executed by the bash program. The program is usually executed line by line.
 Example of a bash script is #!/bin/bash (program to be executed) 
 
-###WHAT IS SHELL BASICS
+### WHAT IS SHELL BASICS
 
 These are basic human-readable commands by a user which the shell understands and converts into something the karnel can understand. we would be covering some of such examples and we would be doing it using bash script, they are as follows:
 

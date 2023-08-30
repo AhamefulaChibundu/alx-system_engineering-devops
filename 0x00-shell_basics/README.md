@@ -21,7 +21,7 @@ $
 Moving on, we follow same stepsin example1
 
 2. A script that displays the contents list of your current directory: #!/bin/bash ls
-3. A script that changes the working directory to the user’s home directory: #!/bin/bash cd /
+3. A script that changes the working directory to the user’s home directory: #!/bin/bash cd /root
 4. A script that displays current directory contents in a long format: #!/bin/bash ls -l
 5. A script that displays current directory contents, including hidden files (starting with .): #!/bin/bash ls -la
 6. A

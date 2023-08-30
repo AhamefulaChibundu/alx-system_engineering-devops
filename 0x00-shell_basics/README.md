@@ -24,4 +24,5 @@ Moving on, we follow same stepsin example1
 3. A script that changes the working directory to the user’s home directory: #!/bin/bash cd /root
 4. A script that displays current directory contents in a long format: #!/bin/bash ls -l
 5. A script that displays current directory contents, including hidden files (starting with .): #!/bin/bash ls -la
-6. A
+6. A script that displays current directory contents in long format, with user and group IDs displayed numerically and also hidden files: #!/bin/bash ls -na
+7. A script that creates a directory in another directory: #!/bin/bash mkdir /tmp/file1

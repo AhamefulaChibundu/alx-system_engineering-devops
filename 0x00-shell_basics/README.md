@@ -14,13 +14,15 @@ These are basic human-readable commands by a user which the shell understands an
 1. A command that prints the absolute path name of the current working directory. The command for this is 'pwd'. We can make this a bash script by creating a file (e.g file1) and saving these in it: #!/bin/bash pwd 
 After saving, we need to make our files exectable by using the command chmod u+x (filename); in this example, since the name of our file is file1, we use chmod u+x file1. Finally, to execute the code, we type ./file1 and it prints our current working directory.
 <br>
-`
-$ ./file1 
 
-/root/project/shell-basics/ 
-
+```
+$ ./file1  
+ 
+/root/project/shell-basics/  
+ 
 $
-`<br>
+``` 
+<br>
 Moving on, we follow same stepsin example1
 
 2. A script that displays the contents list of your current directory: `#!/bin/bash ls`

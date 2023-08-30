@@ -2,13 +2,11 @@
 
 This project is simply about bash script and shell basics.
 
-### WHAT IS BASH SCRIPT?
-
+### WHAT IS BASH SCRIPT?  
 Bash script is a series of command written in a file which are read and executed by the bash program. The program is usually executed line by line.
 Example of a bash script is #!/bin/bash (program to be executed) 
 
-### WHAT IS SHELL BASICS
-
+### WHAT IS SHELL BASICS?  
 These are basic human-readable commands by a user which the shell understands and converts into something the karnel can understand. we would be covering some of such examples and we would be doing it using bash script, they are as follows:
 
 1. A command that prints the absolute path name of the current working directory. The command for this is 'pwd'. We can make this a bash script by creating a file (e.g file1) and saving these in it: #!/bin/bash pwd 
@@ -29,4 +27,5 @@ Moving on, we follow same stepsin example1
 5. A script that displays current directory contents, including hidden files (starting with .): `#!/bin/bash ls -la`
 6. A script that displays current directory contents in long format, with user and group IDs displayed numerically and also hidden files: `#!/bin/bash ls -na`
 7. A script that creates a directory in another directory: ``#!/bin/bash mkdir /tmp/file1``
-8. A script that moves one directory to another: ``#!/bin/bash mv /tmp/dir1 /tmp/dir2``
+8. A script that moves a file to a directory to: ``#!/bin/bash mv /tmp/file1 /tmp/dir2``
+9. A script that deletes a file from a directory: ``#!/bin/bash rm /tmp/dir1/file1``

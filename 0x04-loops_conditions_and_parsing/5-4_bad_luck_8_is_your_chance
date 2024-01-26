@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Display "Best School" 10 times, 
+# bad luck on the 4th itration
+# good luck on the 8th itration
+
+m=0
+while ((m++ < 10))
+do
+	if ((m == 4))
+	then
+		echo "bad luck"
+	elif ((m == 8))
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+done

@@ -1,0 +1,13 @@
+
+#!/usr/bin/env bash
+# Display "Hi" after 9th iteration
+
+m=0
+while ((m++ < 10))
+do
+	echo "Best School"
+	if ((m == 9))
+	then
+		echo "Hi"
+	fi
+done

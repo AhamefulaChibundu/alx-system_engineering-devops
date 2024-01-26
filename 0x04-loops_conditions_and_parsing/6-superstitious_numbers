@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Display numbers 1-20 or bad luck
+
+m=0
+while ((m++ < 20))
+do
+	echo $m
+	case $m in
+		4)
+			echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+	esac
+done

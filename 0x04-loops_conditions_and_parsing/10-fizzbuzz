@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# FizzBuzz
+
+for ((m = 1; m <= 100; m++))
+do
+    if ((m % 3 && m % 5))
+    then
+        echo $m
+    else
+        (( m % 3 )) || echo -n "Fizz"
+        (( m % 5 )) || echo -n "Buzz"
+        echo
+    fi
+done

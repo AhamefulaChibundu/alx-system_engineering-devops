@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Install nginx web server and redirect to another page
+
+sudo apt-get update -y
+sudo apt-get install nginx -y
+sudo ufw allow 'Nginx HTTP'
+sudo ufw status
+echo "Hello World!" | sudo tee file /var/www/html/index.html
+sudo sed -i '/server_name _;/a rewrite ^/redirect_me/ https://www.linkedin.com/in/chibundu-ahamefula-77107a248 permanent;' /etc/nginx/sites-available/default
+sudo service nginx restart

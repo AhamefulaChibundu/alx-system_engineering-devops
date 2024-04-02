@@ -16,6 +16,7 @@ frontend my_frontend
         mode http
         default_backend my_servers
 backend my_servers
+	modwe http
         balance roundrobin
         server 526893-web-01 100.26.246.127:80 check
         server 526893-web-02 3.94.211.197:80 check

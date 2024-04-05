@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# same as task 0 but kills previous process
+# same as task 0 but stops process id of nginx
 
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
 #restart nginx
 sudo service nginx restart
 
-#kills previous process
-sudo pkill -o nginx
+#stops processid of nginx
+rm /run/nginx.pid

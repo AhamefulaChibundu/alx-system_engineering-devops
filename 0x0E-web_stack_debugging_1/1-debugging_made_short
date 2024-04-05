@@ -3,8 +3,8 @@
 
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
-#restart nginx
-sudo service nginx restart
+#start nginx
+sudo service nginx start
 
 #stops processid of nginx
 rm /run/nginx.pid

@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 # same as task 0 but stops process id of nginx
-
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-
-#start nginx
 sudo service nginx start
-
-#stops process id of nginx
 sudo pkill -o nginx

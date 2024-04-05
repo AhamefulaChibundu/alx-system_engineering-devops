@@ -7,4 +7,4 @@ ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx start
 
 #stops process id of nginx
-kill "$(pgrep 'nginx' | head -1"
+sudo pkill -o nginx

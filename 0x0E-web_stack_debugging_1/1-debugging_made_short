@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# same as task 0 but kills previous process
+
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+#restart nginx
+sudo service nginx restart
+
+#kills previous process
+sudo pkill -o nginx
